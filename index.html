@@ -13,22 +13,20 @@ integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd
 <link rel="preconnect" href="" crossorigin="anonymous" referrerpolicy="no-referrer">
 <link href= "" rel="">
 <link rel="link rel="preconnect href= ""> -->
-<link rel="stylesheet" href="">
+<link rel="stylesheet" href="petstyle.css">
 <title> Home | Pets On Point</title>
 </head>
 <body>
      <!-- header/ main nav -->
     <header>
         <div class= "header" id= "logo">
-            <div class= "banner">
+          <img class="header-image" src="images/puppytub.jpg" alt="clipart dog" style="width: 15%; height: 15%;">
         <a><h1>PETS ON POINT</h1> 
             <h2>GROOMING, BOARDING, AND TRAINING FOR YOUR BEST FRIEND</h2></a>
           </div>
-          <div><i class="fa-solid fa-paw fa-5x"></i>
-            <i class="fa-solid fa-paw fa-5x"></i>
-          </div>
-          
-          <button class="toggle-button" id="hamburger">&#9776</button>
+            <button><i class="fa-solid fa-paw fa-3x"></i>
+            <button class="toggle-button" id="paw"></button>
+          <!--<button class="toggle-button" id="hamburger">&#9776</button> -->
         <div class= "navLinks" id= "navLinks">
            <ul id="navLinks">
             <li><a onclick="closeMenu()" href="#home">Home</a></li>
@@ -42,10 +40,12 @@ integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd
   
     </header>
     <main>
+      <div class="flex" id= "hero">
+     </div>
       <div class="flex">
         <div class="row">
           <div class= "column" id="content">
-          </div>*/
+          </div>
           <div class="column" id="image">
             <img class="image1" src="images\golden.jpg" alt="Golden retriever" style="width: 100%;">
           </div>
@@ -107,11 +107,15 @@ integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd
               <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter fa-3x"></i></a>
               </div>
               <div class= "footer-bottom">
-              <p>copyright &copy;2022 | PETS ON POINT</p>
+              <p>copyright &copy;2022 | PETS ON POINT</p><i class="fa-solid fa-paw fa-3x"></i>
+              <i class="fa-solid fa-paw fa-3x"></i>   <i class="fa-solid fa-paw fa-3x"></i>
+              <i class="fa-solid fa-paw fa-3x"></i>   
+
               </div>
           </div>
   </footer> 
 </main>
 <script src= "pets.js"></script>
+<script src=" main.js"></script>
 </body>
 </html>
