@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/susanjt/PetsOnPoint/issues"
   },
-  "homepage": "https://github.com/susanjt/PetsOnPoint#readme"
+  "homepage": "https://github.com/susanjt/PetsOnPoint#readme",
+  "dependencies": {
+    "md5": "^2.3.0"
+  }
 }

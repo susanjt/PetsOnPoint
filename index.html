@@ -33,7 +33,6 @@ integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd
             <li><a onclick="closeMenu()" href="#grooming">Grooming</a></li>
             <li><a onclick="closeMenu()" href="#boarding">Boarding</a></li>
             <li><a onclick="closeMenu()" href="#training">Training</a></li>
-            <li><a onclick="closeMenu()" href="#contact">Contact</a></li>
             <li><a onclick="closeMenu()" href="#schedule">Schedule</a></li>
          </ul> 
           </div>
@@ -64,29 +63,23 @@ integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd
         </div>  
       </div>
     </div>
-    <div class="info">
-    <div class="flex-container">
-      <h3>For more information about our programs, special events and more,
-          please provide the following:</h3>
-      <form class="form" action="">
-        <div class="form-group">
-          <label for="first-name">First Name</label>
-          <input type="text" name="first-name" id="first-name" placeholder="Enter first name" required>
-        </div>
-        <div class="form-group">
-          <label for="last-name">Last Name</label>
-          <input type="text" name="last-name" id="last-name" placeholder="Enter last name" required>
-        </div>
-        <div class="form-group">
-          <label for="email">Email</label>
-          <input type="email" name="email_address" id="email_address" placeholder="Enter email address" required>
-        </div>
-        <div class="form-group" id="submit">
-          <button id="btn" class="btn">Submit</button>
-        </div>
-      </form>
-    </div>
+  <div>
+    <form method="post" action="https://www.supersaas.com/api/users">
+      <input type="hidden" name="account" value="petsonpoint"/>
+      <input type="hidden" name="id" value="1234fk"/> <!-- The user has ID 1234 on your server's database -->
+      <input type="hidden" name="user[name]" value="testuser@example.com"/>
+      <input type="hidden" name="user[full_name]" value="Full Name"/>
+      <input type="hidden" name="user[phone]" value="(123) 456 789"/>
+      <input type="hidden" name="user[address]" value="Address Line 1
+    Address Line 2"/>
+      <input type="hidden" name="user[super_field]" value=""/>
+      <!-- you can add and remove fields on the "Access Control" screen -->
+      <input type="hidden" name="checksum" value="3ec2f273e15cb6a9799b95ffde223310"/>
+      <input type="hidden" name="after" value="Appointments"/>
+      <input type="submit" value="Book now"/>
+    </form>
   </div>
+    
   <footer>
           <div class= "container">
               <div class= "footer-content">
@@ -97,6 +90,7 @@ integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd
               <div class= "footer-menu">
                 <ul class= "f-menu">
                     <li><a href="people.html">People</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
               </div>
 
