@@ -10,19 +10,22 @@ integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiq
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" 
 integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="stylesheet" href="petstyle.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
 <title> Home | Pets On Point</title>
 </head>
 <body>
      <!-- header/ main nav -->
     <header>
-        <div class= "header" id= "logo">
+        <div class= "header">
           
-        <a><h1>PETS ON POINT</h1> <img class="header-image" src="images/puppytub.jpg" alt="clipart dog" style="width: 15%; height: 15%;">
-            <h2>GROOMING, BOARDING, AND TRAINING FOR YOUR BEST FRIEND</h2></a>
+          <h1>PETS ON POINT</h1> 
+          
+            <h2>GROOMING, BOARDING, & TRAINING FOR YOUR BEST FRIEND</h2>
+            <a><img class="icon"id= "logo" src="images/puppytub.jpg" alt="clipart dog" style="width: 30%; height: 35%;"></a>
           </div>
-            <button><i class="fa-solid fa-paw fa-3x"></i>
-            <button class="toggle-button" id="paw"></button>
-          <!--<button class="toggle-button" id="hamburger">&#9776</button> -->
+          <button class="toggle-button" id="hamburger">&#9776</button>
         <div class= "navLinks" id= "navLinks">
            <ul id="navLinks">
             <li><a onclick="closeMenu()" href="#home">Home</a></li>
@@ -35,20 +38,17 @@ integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd
   
     </header>
     <main>
-      <div class="flex" id= "hero">
-     </div>
-      <div class="flex">
-        <div class="row">
-          <div class= "column" id="content">
-          </div>
+      
           <div class="column" id="image">
-            <img class="image1" src="images\golden.jpg" alt="Golden retriever" style="width: 100%;">
-          </div>
+            <img class="image1" src="images\golden1.jpg" alt="Golden retriever" style="width: 100%;">
         </div>
+        <div class="flex">
         <div class="row">
           <div class="column" id="image">
             <img class="image2" src="images\doodle pup.jpg"  alt="doodle pup" style="width: 100%;" >
           </div>
+          
+
           <div class="row">
           <div class="column" id="image">
             <img class="image3" src="images/puppy1.jpg"  alt="puppy1" style="width: 100%;">
@@ -56,28 +56,34 @@ integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd
         </div>
         <div class="row"></div>
         <div class="column" id="image">
-          <img class="image4" src="images/golden1.jpg" alt="flower dog"style="width: 100%;">
-        </div>
-        <div class="column" id="image">
           <img class="image5" src="images\cat.jpg" alt="grumpy cat"style="width: 100%;">
         </div>    
       </div>
     </div>
   <div>
+    <div class="info">
+    <h2> <p>Currently, we are offering grooming services only.<br>
+          Visit our  <a href="contact.html">Contact</a>
+          page to sign up for our newsletter and get started with
+ training and boarding services as they become available, along with monthly discounts and specials.<br>
+          Please book appointments for grooming services here and provide detailed information so we can<b>
+          best serve your pet's needs.</p></h2>
+        </div> 
+
     <form method="post" action="https://www.supersaas.com/api/users">
-      <input type="hidden" name="account" value="petsonpoint"/>
-      <input type="hidden" name="id" value="1234fk"/> <!-- The user has ID 1234 on your server's database -->
+      <input type="hidden" name="account" value="petsonpoint"/> <!--The user has ID 1234 on your server's database-->
+      <input type="hidden" name="id" value="1234fk"/> 
       <input type="hidden" name="user[name]" value="testuser@example.com"/>
       <input type="hidden" name="user[full_name]" value="Full Name"/>
       <input type="hidden" name="user[phone]" value="(123) 456 789"/>
       <input type="hidden" name="user[address]" value="Address Line 1
     Address Line 2"/>
       <input type="hidden" name="user[super_field]" value=""/>
-      <!-- you can add and remove fields on the "Access Control" screen -->
       <input type="hidden" name="checksum" value="3ec2f273e15cb6a9799b95ffde223310"/>
       <input type="hidden" name="after" value="Appointments"/>
       <input type="submit" value="Book now"/>
     </form>
+   
   </div>
     
   <footer>
@@ -101,9 +107,8 @@ integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd
               <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter fa-3x"></i></a>
               </div>
               <div class= "footer-bottom">
-              <p>copyright &copy;2022 | PETS ON POINT</p><i class="fa-solid fa-paw fa-3x"></i>
-              <i class="fa-solid fa-paw fa-3x"></i>   <i class="fa-solid fa-paw fa-3x"></i>
-              <i class="fa-solid fa-paw fa-3x"></i>   
+              <p>copyright &copy;2022 | PETS ON POINT</p><i class="fa-solid fa-paw fa-4x"></i>
+              <i class="fa-solid fa-paw fa-3x"></i>   <i class="fa-solid fa-paw fa-2x"></i>  
 
               </div>
           </div>

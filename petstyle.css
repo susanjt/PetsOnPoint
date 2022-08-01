@@ -7,88 +7,48 @@ body {
   top: 0px;
 }
 
-/*body {
-
-}
-
 font styles
-p, li {
-
+p {
+  font-family: 'Merriweather', serif;
+  font-size: 1em;
 }
 
 h1 {
-
+  font-family: 'Merriweather', serif;
+  font-size: 2em;
 }
 
 h2 {
-
+  font-family: 'Merriweather', serif;
+  font-size: 1.5em;
 }
 
 h3 {
-
+  font-family: 'Merriweather', serif;
+  font-size: 1em;
 }
 
 h4 {
-
+  font-family: 'Merriweather', serif;
+  font-size: .8em;
 }
 
 h5 {
-
+  font-family: 'Merriweather', serif;
+  font-size: .50em;
 }
 
 
 a:link {
-
-
-
-}
-
-a:visited {
-
-}
-a:hover {
-
-}
-
-
-#navLinks {
-
-
-
-
-
+  font-family: 'Merriweather', serif;
+  font-size: .9em;
+  color:#b4b4b4;
+  text-decoration: underline;
+  text-align: justify;
 
 
 }
 
-#navLinks ul {
-    list-style: none;
-}
-
-header {
-
-
-
-
-
-
-}
-
-.banner {
-
-}
-
-.navLinks {
-
-
-}
-
-.button {
-
-
-
-
-}
 
 .row {
   display: flex;
@@ -99,7 +59,7 @@ header {
   text-align: center;
 }
 
-/*main and img styles
+main and img styles
 
 main {
     display: flex;
@@ -121,9 +81,9 @@ main {
   }
   
   
-  /*footer styles
+  footer styles
   footer {
-    background-color: #590004;
+    background-color: #328ba8;
     clear: both;
     color: #dcdcdd;
     text-align: center;
@@ -134,7 +94,7 @@ main {
   .f-menu {
     list-style-type: none;
     font-size: 20px;
-    text-align: center;
+    text-align: left;
     justify-content: center;
   
   } 
@@ -145,24 +105,49 @@ main {
     height: 100%;
   }
 
-  /* Responsive layout - makes the columns stack on top of each other instead of next to each other 
-@media screen and (max-width: 599px) and (min-width:320px) {
-    .column {
+ 
+
+@media screen and (max-width: 599px) and (min-width:400px) {
+   
+  
+  .column {
       width: 100%;
     }
+
   
-    .row {
+  .row {
       flex-direction: column;
     }
   
-   .navLinks {
+  .navLinks {
       display: none;
     }
   
-    .navLinks.active{
+   .navLinks.active{
       display: block;
     }
 }  
+#hamburger{
+  box-sizing: border-box;
+  width: 60px;
+  height: 60px;
+  font-size: 60px;
+  background-color: #328ba8;
+  font-weight: 500;
+  border:#b4b4b4;
+  color:#b4b4b4;
+}
+
+header {
+  display:flex;
+  background-color: #328ba8;
+  color: #dcdcdd;
+  width: 100%;
+  justify-content: center;
+  overflow: visible;
+  }
+
+
  @media only screen and (max-width: 767px) and (min-width: 600px) {
   .column {
     width: 100%;
@@ -181,7 +166,7 @@ main {
 
 header {
   display: flex;
-  background-color: #590004;
+  background-color: #328ba8;
   color: #dcdcdd;
   width: 100%;
   justify-content: center;
@@ -199,14 +184,13 @@ header {
 
 #hamburger {
       display: block;
-      position: relative;
-      margin-top: 50px;
+      margin-top: 10px;
       margin-left: 10px;
       margin-bottom: 10px;
-      background-color: #b4b4b4;
-      color: #000111;
-      justify-content: right;
-      font-size: 30px;
+      background-color: #328ba8;
+      color: #b4b4b4;
+      justify-content: left;
+      font-size: 70px;
       } 
   }
 
@@ -221,7 +205,7 @@ header {
 @media only screen and (min-width: 768px) {
 header {
   display: flex;
-  background-color: #590004;
+  background-color: #328ba8;
   color: #dcdcdd;
   width: 100%;
   justify-content: center;
@@ -241,19 +225,25 @@ header {
     display: none;
   }
 
+.flex {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+  }
   
 #content {
   text-align: center;
   font-size: 20px;
   font-weight: 300;
   margin-left: 5px;
-}
+  }
   }  
 
 @media only screen and (min-width: 1200px) {
 header {
   display: flex;
-  background-color: #590004;
+  background-color: #328ba8;
   color: #dcdcdd;
   width: 100%;
   justify-content: center;
@@ -269,10 +259,4 @@ header {
   font-size: 2.5em;
   }
 
-#content {
-    text-align: left;
-    font-size: 25px;
-    font-weight: 300;
-    margin-left: 5px;
-  }
 } 
