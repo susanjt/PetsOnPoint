@@ -80,6 +80,22 @@ main {
     align-content: center;
   }
   
+  table {
+    width: 100%;
+  }
+
+  table, th, td {
+    border: solid 1px #4f5d75;
+    border-collapse: collapse;
+    padding: 2px 3px;
+    text-align: center;
+  }
+
+  th {
+    font-family: 'Merriweather', serif;
+    font-size: 1.25em;
+    font-weight: bold;
+  }
   
   footer styles
   footer {

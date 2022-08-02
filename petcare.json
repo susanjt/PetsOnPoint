@@ -1,0 +1,22 @@
+[
+
+    {
+"FULL SERVICE": "Based on weight/size",
+"Includes": "Bath, towel dry, nail trim, ear cleaning, brushing, cut, dematting of minor/ no matting",
+"Price": "$45.00 - $85.00 and up"
+    },
+
+    {
+"DELUXE SERVICE": "Based on weight/size",
+"Includes": "Bath, towel dry, nail trim, ear cleaning, eye cleaning, brushing, cut, dematting, teeth cleaning, gland expression",
+"Price": "$60.00 - $95.00 and up"  
+    },
+
+    {
+
+"BASIC SERVICE": "Based on weight/size",
+"Includes": "Bath, dry, nail trim, ear cleaning",
+"Price": "$25.00 - $65.00 and up"
+    }
+
+]
