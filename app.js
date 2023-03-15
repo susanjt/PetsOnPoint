@@ -3,7 +3,7 @@
       "supersaas-api-client"; "^1.0"
     }
   }
-  
+
   var supersaas = require('supersaas-api-client');
   var Client = supersaas.Client;
 
@@ -15,5 +15,4 @@
     verbose: true
   })
   Client.Instance.accountName; //=> 'account'
-
 

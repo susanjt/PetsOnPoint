@@ -4,7 +4,8 @@
   "description": "image credits: Celine Sayuri-Tagami @ unsplash.com, tr photography @ unsplash.com, unknown source",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node main.js",
+    "dev": "nodemon main.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,16 @@
   "homepage": "https://github.com/susanjt/PetsOnPoint#readme",
   "dependencies": {
     "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.1",
     "requirejs": "^2.3.6"
+  },
+  "jslint.options": {
+    "es6": true
+  },
+  "devDependencies": {
+    "eslint": "^8.36.0",
+    "nodemon": "^2.0.21"
   }
 }

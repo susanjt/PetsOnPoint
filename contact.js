@@ -1,8 +1,10 @@
-let pattern = new RegExp("([!#-'*+/-9=?A-Z^-~-]+(\.[!#-'*+/-9=?A-Z^-~-]+)*|\"\(\[\]!#-[^-~ \t]|(\\[\t -~]))+\")@([!#-'*+/-9=?A-Z^-~-]+(\.[!#-'*+/-9=?A-Z^-~-]+)*|\[[\t -Z^-~]*])");
+/* eslint-disable no-undef */
+`use strict`;
+let pattern = new RegExp(`/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/`);
 
 function checkEmailAddress(email_address) {
-  let result = pattern.test(email_address);
-  console.log(result);
+ let result = pattern.test(email_address);
+  console.log(email_address);
 }
 
 checkEmailAddress();
