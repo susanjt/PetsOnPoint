@@ -4,8 +4,8 @@
   "description": "image credits: Celine Sayuri-Tagami @ unsplash.com, tr photography @ unsplash.com, unknown source",
   "main": "main.js",
   "scripts": {
-    "start": "node main.js",
-    "dev": "nodemon main.js"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
