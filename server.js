@@ -5,9 +5,25 @@ const app = express();
 const port = 3000;
 
 app.use(express.json());
+
 app.use(cors());
 
-app.get("/", (req, res) => res.json({ message: "success!" }));
+app.get("/", (req, res) => res.send({ message: "success!" }));
+
 
 app.listen(port, () => console.log(`App listening on port ${port}`));
+
+const apiUrl = 'https://www.supersaas.com/schedule/petsonpoint/Appointments';
+app.get("/schedule", async (req, res, next) => {
+    const result = await supersaas.get(apiUrl, {
+        headers: {
+            "X-Supersaas-Api-Key": process.env.supersaas_api_key,
+        },
+    });
+    res.json(result.data);
+});
+
+console.log(process.env.supersaas_api_key);
+
+
 

@@ -9,7 +9,7 @@
 
   Client.configure({
     accountName: 'petsonpoint',
-    api_key: 'vIk1qrjs-ePZqSwP8A1DBw',
+    api_key: 'hkfaD6nqc6NSBziVJ0FmJw',
     host: 'https://www.supersaas.com/schedule/petsonpoint/Appointments',
     dryRun: true,
     verbose: true
