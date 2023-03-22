@@ -133,3 +133,5 @@ dist
 
 # Secret files
 app.env
+
+.package-lock.json

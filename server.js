@@ -4,11 +4,13 @@ const cors = require("cors");
 const app = express();
 const port = 3000;
 
+app.use('/', express.static('public'));
+
 app.use(express.json());
 
 app.use(cors());
 
-app.get("/", (req, res) => res.send({ message: "success!" }));
+
 
 
 app.listen(port, () => console.log(`App listening on port ${port}`));
