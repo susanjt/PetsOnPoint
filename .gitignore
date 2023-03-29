@@ -135,3 +135,5 @@ dist
 app.env
 
 .package-lock.json
+
+.netlify

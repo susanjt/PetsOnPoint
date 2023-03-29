@@ -15,17 +15,6 @@ app.use(cors());
 
 app.listen(port, () => console.log(`App listening on port ${port}`));
 
-const apiUrl = 'https://www.supersaas.com/schedule/petsonpoint/Appointments';
-app.get("/schedule", async (req, res, next) => {
-    const result = await supersaas.get(apiUrl, {
-        headers: {
-            "X-Supersaas-Api-Key": process.env.supersaas_api_key,
-        },
-    });
-    res.json(result.data);
-});
-
-console.log(process.env.supersaas_api_key);
 
 
 

@@ -1,7 +1,7 @@
 {
   "name": "petsonpoint",
   "version": "1.0.0",
-  "description": "",  
+  "description": "image credits: Celine Sayuri-Tagami@unsplash.com, tr photography@unsplash.com, unknown source,Photo by Reba Spike@ unsplash.com",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -18,17 +18,21 @@
   },
   "homepage": "https://github.com/susanjt/PetsOnPoint#readme",
   "dependencies": {
+    "axios": "^1.3.4",
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "node-fetch": "^3.3.1",
-    "requirejs": "^2.3.6"
+    "requirejs": "^2.3.6",
+    "supersaas-api-client": "^1.2.3"
   },
   "jslint.options": {
     "es6": true
   },
   "devDependencies": {
+    "concurrently": "^7.6.0",
     "eslint": "^8.36.0",
+    "netlify-cli": "^13.2.1",
     "nodemon": "^2.0.21"
   }
 }
