@@ -1,11 +1,11 @@
 
-require("dotenv").config();
-import { Router } from "express";
-const router = Router();
-import fetch from "node-fetch";
+//require("dotenv").config();
+//import { Router } from "express";
+//const router = Router();
+//import fetch from "node-fetch";
 
-router.get("/", (req, res) => {
-    res.json({ message: "success!" });
-    });
+//router.get("/", (req, res) => {
+    //res.json({ message: "success!" });
+    //});
 
-export default router;
+//export default router;

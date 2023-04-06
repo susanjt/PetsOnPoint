@@ -24,7 +24,9 @@
     "express": "^4.18.2",
     "node-fetch": "^3.3.1",
     "requirejs": "^2.3.6",
-    "supersaas-api-client": "^1.2.3"
+    "simple-get": "^4.0.1",
+    "supersaas-api-client": "^1.2.3",
+    "uuid": "^9.0.0"
   },
   "jslint.options": {
     "es6": true
@@ -33,6 +35,6 @@
     "concurrently": "^7.6.0",
     "eslint": "^8.36.0",
     "netlify-cli": "^13.2.1",
-    "nodemon": "^2.0.21"
+    "nodemon": "^2.0.14-alpha.1"
   }
 }

@@ -44,7 +44,7 @@ Client.Instance.appointments.range(12345, false, '2023-01-31 00:00:00', '2023-03
 });
 
 Client.Instance.appointments.create(12345, 67890, {"full_name": ...}, true, true, function(err, data) { 
-    console.log(data); //=> {location: 'https://www.supersaas.com/api/bookings}
+    console.log(data); //=> {location: 'https://www.supersaas.com/api/bookings'}
 });
 
 Client.Instance.appointments.update(12345, 67890, {"full_name": ...}, true, true, function(err, data) { 

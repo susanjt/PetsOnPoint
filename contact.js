@@ -22,7 +22,11 @@ form.addEventListener('submit', function (e) {
   } else { 
     alert('Email is not valid');
   }
-});
 
+  console.log(form);
+});
+form.addEventListener('submit', function (e) {
+  console.log(email_address);
+});
 
 
