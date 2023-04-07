@@ -27,7 +27,7 @@ app.get('/', (req, res) => {
 
 let opts = {
   method: 'GET',
-  url: 'https://www.supersaas.com/api/changes/641837.json?from=2023-04-04%2017:00:00&api_key=hkfaD6nqc6NSBziVJ0FmJw',
+  url: 'https://www.supersaas.com/api/changes/641837.json?from=2023-04-04%2017:00:00&api_key=',
   body: {
     key: 'value'
   },
