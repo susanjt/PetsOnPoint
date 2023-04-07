@@ -86,11 +86,24 @@ integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd
    
   </div>
   <p>
-    <input type="button" value="Services" id="bt">
+    <!--<input type="button" value="Services" id="bt">-->
   </p>
-  <div id="showData">
-  </div>
-    
+ 
+    <table>
+      <thead>
+        <tr>
+          <th>
+            <span> Service Packages</th>
+          <th>Included Services</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+
+      <tbody id="data-output">
+
+      </tbody>
+
+    </table>
   <footer>
           <div class= "container">
               <div class= "footer-content">
@@ -120,7 +133,7 @@ integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd
   </footer> 
 </main>
 <script src= "main.js"></script>
-<script src= "netlify\functions\app.js" type="module"></script>
+<script src= "table.js"></script>
 <script src= "pets.js"></script>
 </body>
 </html>

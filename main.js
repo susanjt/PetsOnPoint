@@ -14,14 +14,7 @@ navLinks.classList.toggle ('active');
 }
 
 $('#bt').click(function () {
-    $.getJSON("https://storage.cloud.google.com/sjtdocs/petcare.json", function (data) {
-        let keys;
-        let items = [];
-
-    $.each(data, function (index, value) {
-        keys= Object.keys(value);
-        items.push(value);
-    });
+   
 
     let table = document.createElement("table");
     let tr = table.insertRow(-1);

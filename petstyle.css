@@ -79,6 +79,19 @@ main {
     margin-bottom: 5px;
     align-content: center;
   }
+
+  input[type="submit"] {
+    background-color: #328ba8;
+    color: #dcdcdd;
+    font-family: 'Merriweather', serif;
+    font-size: 1.25em;
+    font-weight: bold;
+    margin: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
   
   table {
     width: 100%;
@@ -95,6 +108,8 @@ main {
     font-family: 'Merriweather', serif;
     font-size: 1.25em;
     font-weight: bold;
+    margin: 20px;
+    
   }
   
   footer styles
